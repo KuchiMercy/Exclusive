@@ -43,7 +43,7 @@ const SignUp = (props) => {
           <form onSubmit={onSubmitForm} className="flex flex-col ">
             {/* Email */}
             <input
-              type="text"
+              type="email"
               name="email"
               value={form.email}
               onChange={onUpdateField}
